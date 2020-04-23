@@ -19,7 +19,7 @@ namespace badabing2
 			{ 
 				Text = "About",
 				ImagePosition = ButtonImagePosition.Left,
-				Image = new Bitmap("/usr/share/icons/gnome/32x32/actions/help-about.png"),
+				Image = new Bitmap("Assets/help-about.png"),
 				Width = 200,
 				Height = 80,
 				Font = new Font("SANS-SERIF", 12, FontStyle.Bold),
@@ -30,7 +30,7 @@ namespace badabing2
 			{ 
 				Text = "Preferences",	
 				ImagePosition = ButtonImagePosition.Left,
-				Image = new Bitmap("/usr/share/icons/gnome/32x32/categories/preferences-desktop.png"),
+				Image = new Bitmap("Assets/preferences-desktop.png"),
 				Width = 200,
 				Height = 80,
 				Font = new Font("SANS-SERIF", 12, FontStyle.Bold),
@@ -40,7 +40,7 @@ namespace badabing2
 			{ 
 				Text = "Gallery",
 				ImagePosition = ButtonImagePosition.Left,
-				Image = new Bitmap("/usr/share/icons/gnome/32x32/apps/preferences-desktop-wallpaper.png"),
+				Image = new Bitmap("Assets/preferences-desktop-wallpaper.png"),
 				Width = 200,
 				Height = 80,
 				Font = new Font("SANS-SERIF", 12, FontStyle.Bold),
@@ -50,7 +50,7 @@ namespace badabing2
 			{ 
 				Text = "Download",
 				ImagePosition = ButtonImagePosition.Left,
-				Image = new Bitmap("/usr/share/icons/gnome/32x32/emblems/emblem-downloads.png"),
+				Image = new Bitmap("Assets/emblem-downloads.png"),
 				Width = 200,
 				Height = 80,
 				Font = new Font("SANS-SERIF", 12, FontStyle.Bold),

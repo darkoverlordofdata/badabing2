@@ -3,9 +3,31 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
   </PropertyGroup>
+	
+  <ItemGroup>
+    <None Remove="Assets\emblem-downloads.png" />
+    <None Remove="Assets\help-about.png" />
+    <None Remove="Assets\preferences-desktop-wallpaper.png" />
+    <None Remove="Assets\preferences-desktop.png" />
+  </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="Eto.Forms" Version="2.5.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="Assets\emblem-downloads.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\help-about.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\preferences-desktop-wallpaper.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\preferences-desktop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   
 </Project>
