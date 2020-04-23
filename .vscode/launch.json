@@ -12,7 +12,7 @@
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/badabing2.Gtk/bin/Debug/netcoreapp3.1/badabing2.Gtk.dll",
             "args": ["--framework", "netcore3.1"],
-            "cwd": "${workspaceFolder}/badabing2.Gtk",
+            "cwd": "${workspaceFolder}/badabing2.Gtk/bin/Debug/netcoreapp3.1",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
