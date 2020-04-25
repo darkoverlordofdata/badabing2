@@ -24,20 +24,20 @@ namespace badabing2.Dialogs
             var labelTitle = new Label();
             labelTitle.Text = "BadaBing";
             labelTitle.Font = new Font(FontFamilies.Sans, 16);
-            labelTitle.HorizontalAlign = HorizontalAlign.Center;
+            labelTitle.TextAlignment = TextAlignment.Center;
 
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             var labelVersion = new Label();
             labelVersion.Text = string.Format("Version {0}", version);
-            labelVersion.HorizontalAlign = HorizontalAlign.Center;
+            labelVersion.TextAlignment = TextAlignment.Center;
 
-            var labelDesc = new Label();l
+            var labelDesc = new Label();
             labelDesc.Text = "Daily Wallpaper from Bing";
-            labelDesc.HorizontalAlign = HorizontalAlign.Center;
+            labelDesc.TextAlignment = TextAlignment.Center;
             
             var labelCopyright = new Label();
             labelCopyright.Text = "Copyright 2020 by Bruce Davidson";
-            labelCopyright.HorizontalAlign = HorizontalAlign.Center;
+            labelCopyright.TextAlignment = TextAlignment.Center;
             
             var button = new Button();
             button.Text = "Close";
