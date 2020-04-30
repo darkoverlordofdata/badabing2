@@ -33,5 +33,8 @@
     <EmbeddedResource Include="Assets\preferences-desktop.png" />
     <Content Include="MainForm.cs" />
     <Content Include="Dialogs\About.cs" />
+    <Content Include="Views\WelcomeView.cs" />
+    <Content Include="Views\PreferencesView.cs" />
+    <Content Include="Views\GalleryView.cs" />
   </ItemGroup>
 </Project>
